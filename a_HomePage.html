@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewOne</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<---class=" text-center text-white"--->
+    <style>
+       body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('th(2).jpg');
+    background-size: 10%; /* Start zoomed in */
+    background-position: center;
+    animation: zoom 10s infinite alternate;
+    position: relative; /* For layering */
+     /* Change default text color for better visibility */
+}
+a{
+            color: deeppink;
+        }
+       
+
+h1 {
+    font-family: 'Pacifico', cursive; /* Change to a more stylized font */
+    font-size: 3rem; /* Increase the font size */
+    letter-spacing: 4px; /* Increase letter spacing for a more dramatic effect */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+    color: deeppink;
+
+}
+
+span {
+    color: #d3d0d0;
+    transition: color 0.3s; /* Add a transition for hover effect */
+}
+
+span:hover {
+    color: white; /* Change color on hover for interaction */
+}
+
+/* Optional: Adding a background gradient */
+footer {
+    background: linear-gradient(135deg, #cccbcb, #f06595);
+    padding: 20px; /* Add padding for aesthetics */
+    border-radius: 10px; /* Rounded corners */
+    height: 50px;
+}
+
+
+
+.animated {
+    animation: fadeIn 1s;
+}
+
+@keyframes zoom {
+    0% {
+        background-size: 100%; /* Start zoomed in */
+    }
+    100% {
+        background-size: 90%; /* Zoom out to normal */
+    }
+}
+
+.hero {
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 900px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+   
+    
+}
+
+
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer input {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer button {
+    padding: 10px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    background-color:rgb(202, 14, 105);
+}
+
+   </style>
+</head>
+<body>
+  
+        <h1 class="float-left"><span>N</span>ew<span>O</span>ne</h1>
+        <div class="container">
+            <nav class="float-right">
+                <ul class="list-unstyled d-flex">
+                    <li class="mx-2"><a href="a_HomePage.html" >Home</a></li>
+                    <li class="mx-2"><a href="b_ServicePage.html" >Services</a></li>
+                    <li class="mx-2"><a href="c_GalleryPage.html" >Gallery</a></li>
+                    <li class="mx-2"><a href="d_BlogePage.html" >Blog</a></li>
+                    <li class="mx-2"><a href="d_BlogePage.html" >Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+   
+
+    <section  style="background-image: url('th\(3\).jpg'); height: 60vh; background-size:cover;">
+        <div class="container">
+            <h2 class="hero">Transforming the Old into Something New</h2>
+            <a href="b_ServicePage.html" class="hero btn btn-secondary">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="my-5">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <p>Our mission is to give new life to your cherished items.</p>
+           
+        </div>
+    </section>
+
+   
+   
+
+    <section id="testimonials" class="my-5 text-center">
+        <h2>What Our Clients Say</h2>
+        <div class="carousel slide" id="testimonialCarousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p>"Amazing work! My chair looks brand new!"</p>
+                </div>
+                <div class="carousel-item">
+                    <p>"The best service ever. Highly recommend!"</p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <footer class=" p-4">
+        <p>Contact us at: info@newone.com</p>
+        <p>Follow us on social media</p>
+        <p>Subscribe to our newsletter</p>
+        <form>
+            <input type="email" placeholder="Your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
